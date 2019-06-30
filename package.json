@@ -1,0 +1,15 @@
+{
+  "name": "next-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "pg": "^7.11.0",
+    "serverless-mysql": "^1.4.0",
+    "sql": "^0.78.0",
+    "sql-tag": "^1.0.1",
+    "sql-template-strings": "^2.2.2",
+    "tag": "^0.4.11"
+  }
+}
