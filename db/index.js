@@ -15,10 +15,12 @@ const pool = new Pool({
   }
 })
 
-exports.querydb = async function querydb(text, params) {
-  const results = await pool.query(text, params);
-  await pool.end();
-  console.log(results);
-  return results;
+exports.query = async function query(text, params) {
+  try {
+    const results = await pool.query(text, params);
+    console.log(results);
+    return results;
+  } catch {
+    console.log(error);
+  }
 }
-

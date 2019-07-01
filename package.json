@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "dotenv": "^8.0.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
     "pg": "^7.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "serverless-mysql": "^1.4.0",
     "sql": "^0.78.0",
     "sql-tag": "^1.0.1",
